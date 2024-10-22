@@ -11,7 +11,7 @@ filename = 'data.json'
 file_path = 'data.json'
 
 def classify(text):
-    key = "3f639840-8e0f-11ef-b63d-5157506f1f968430c501-f870-4fb4-930c-980bfa33a8ec"
+    key = "key 입력"
     url = "https://machinelearningforkids.co.uk/api/scratch/"+ key + "/classify"
 
     response = requests.get(url, params={ "data" : text })
